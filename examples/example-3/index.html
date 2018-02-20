@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap 4 - Example 3</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./../../bootstrap-rtl.css">
+  <link rel="stylesheet" href="./../style/css/fontiran.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+      <h2>فرم خرید</h2>
+      <p class="lead">باور ما اینست که کاربران ایرانی لایق بهترین ها هستند و باید بهترین و بروزترین فیلم های آموزشی و مقالات در اختیار آنها قرار بگیرد تا بتوانند به سرعت پیشرفت کنند و جزء بهترین ها در صنعت طراحی و برنامه نویسی وب شوند . با ما همراه باشید تا بهترین ها رو لایق بهترین کاربران کنیم</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 order-md-2 mb-4">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-muted">سبدخرید شما</span>
+          <span class="badge badge-secondary badge-pill">3</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">عنوان عنوان محصول</h6>
+              <small class="text-muted">توضیح مختصر</small>
+            </div>
+            <span class="text-muted">$12</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">عنوان محصول دوم</h6>
+              <small class="text-muted">توضیح مختصر</small>
+            </div>
+            <span class="text-muted">$8</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">آیتم سوم</h6>
+              <small class="text-muted">توضیح مختصر</small>
+            </div>
+            <span class="text-muted">$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-success">
+              <h6 class="my-0">کد تخفیف</h6>
+              <small>EXAMPLECODE</small>
+            </div>
+            <span class="text-success">-$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>جمع (تومان)</span>
+            <strong>$20</strong>
+          </li>
+        </ul>
+
+        <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="کد تخفیف">
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-secondary">اعمال</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-8 order-md-1">
+        <h4 class="mb-3">آدرس شما</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">نام</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                لطفا نام را وارد کنید.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">نام خانوادگی</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                لطفا نام خانوادگی را وارد کنید.
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="username">نام کاربری</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" id="username" placeholder="نام کاربری" required>
+              <div class="invalid-feedback" style="width: 100%;">
+                لطفا نام کاربری را وارد کنید
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email">ایمیل <span class="text-muted">(انتخابی)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            <div class="invalid-feedback">
+              لطفا ایمیل خود را واد کنید برای ارسال جزئیات خرید الزامیست
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="address">آدرس</label>
+            <input type="text" class="form-control" id="address" placeholder="مازندران, بابل" required>
+            <div class="invalid-feedback">
+              لطفا آدرس خود را وارد کنید
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="address2">آدرس 2 <span class="text-muted">(انتخابی)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="تهران, تهران">
+          </div>
+
+          <div class="row">
+            <div class="col-md-5 mb-3">
+              <label for="country">کشور</label>
+              <select class="custom-select d-block w-100" id="country" required>
+                <option value="">انتخاب...</option>
+                <option>جمهوری اسلامی ایران</option>
+              </select>
+              <div class="invalid-feedback">
+                لطفا کشور مورد نظر را انتخاب کنید
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="state">استان</label>
+              <select class="custom-select d-block w-100" id="state" required>
+                <option value="">انتخاب کنید...</option>
+                <option>مازندران</option>
+              </select>
+              <div class="invalid-feedback">
+                لطفا استان مورد نظر را انتخاب کنید
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="zip">نام شهر</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                نام شهر الزامیست
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="same-address">
+            <label class="custom-control-label" for="same-address">قبل از ارسال سفارش برای هماهنگی تماس گرفته شود</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="save-info">
+            <label class="custom-control-label" for="save-info">ذخیره سازی اطلاعات برای خرید بعدی</label>
+          </div>
+          <hr class="mb-4">
+
+          <h4 class="mb-3">نوع پرداخت</h4>
+
+          <div class="d-block my-3">
+            <div class="custom-control custom-radio">
+              <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+              <label class="custom-control-label" for="credit">بانک ملت</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+              <label class="custom-control-label" for="debit">زرین پال</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+              <label class="custom-control-label" for="paypal">بانک صادرات</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="cc-name">نام دارنده کارت</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required>
+              <small class="text-muted">لطفا نام کامل دارنده کارت را به فارسی وارد کنید</small>
+              <div class="invalid-feedback">
+                Name on card is required
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="cc-number">شماره کارت</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <div class="invalid-feedback">
+                لطفا شماره کارت را وارد کنید
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <label for="cc-expiration">اعتبار کارت</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+              <div class="invalid-feedback">
+                اعتبار کارت الزامیست
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="cc-expiration">CVV2</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <div class="invalid-feedback">
+                کد cvv2 الزامیست
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block" type="submit">ادامه و ثبت خرید</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">&copy; 1396-1397 مجله آموزشی راکت</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">حریم خصوصی</a></li>
+        <li class="list-inline-item"><a href="#">قوانین</a></li>
+        <li class="list-inline-item"><a href="#">پشتیبانی</a></li>
+      </ul>
+    </footer>
+  </div>
+      
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
