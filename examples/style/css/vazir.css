@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir.eot');
+    src: url('../fonts/eot/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir.woff2') format('woff2'),
+         url('../fonts/woff/Vazir.woff') format('woff'),
+         url('../fonts/ttf/Vazir.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir-Bold.eot');
+    src: url('../fonts/eot/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir-Bold.woff2') format('woff2'),
+         url('../fonts/woff/Vazir-Bold.woff') format('woff'),
+         url('../fonts/ttf/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir-Light.eot');
+    src: url('../fonts/eot/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir-Light.woff2') format('woff2'),
+         url('../fonts/woff/Vazir-Light.woff') format('woff'),
+         url('../fonts/ttf/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir-Medium.eot');
+    src: url('../fonts/eot/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir-Medium.woff2') format('woff2'),
+         url('../fonts/woff/Vazir-Medium.woff') format('woff'),
+         url('../fonts/ttf/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir-Thin.eot');
+    src: url('../fonts/eot/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir-Thin.woff2') format('woff2'),
+         url('../fonts/woff/Vazir-Thin.woff') format('woff'),
+         url('../fonts/ttf/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+  }
