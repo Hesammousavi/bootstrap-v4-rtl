@@ -1,0 +1,15 @@
+{
+  "name": "bootstrapv4rtl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "minify --output bootstrap-rtl.min.css bootstrap-rtl.css"
+  },
+  "devDependencies": {
+    "minifier": "^0.8.1"
+  }
+}
