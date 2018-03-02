@@ -1,6 +1,6 @@
 body {
-	font-family: Vazir !important;
-	font-weight: 300;
+  font-family: 'Vazir', Vazir, Tahoma, Arial, sans-serif !important;
+  font-weight: 300;
   direction: rtl;
   text-align: right;
   color: #5a5a5a;

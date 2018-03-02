@@ -5,9 +5,9 @@ body {
 
 /* ----------------- List Group ----------------- */
 .list-group {
-    padding-right: 0px;
+    padding-right: 0;
 }
-    
+
 /* ---------------- List Inline -------------------- */
 .list-inline {
     padding-right: 0;
@@ -135,15 +135,17 @@ body {
     border-bottom-right-radius: 0 !important;
 }
 
-.btn-group .btn+.btn, 
-.btn-group .btn+.btn-group, 
-.btn-group .btn-group+.btn, .btn-group 
-.btn-group+.btn-group, .btn-group-vertical .btn+.btn, 
-.btn-group-vertical .btn+.btn-group, .btn-group-vertical 
-.btn-group+.btn, .btn-group-vertical .btn-group+.btn-group {
+.btn-group .btn+.btn,
+.btn-group .btn+.btn-group,
+.btn-group .btn-group+.btn,
+.btn-group .btn-group+.btn-group,
+.btn-group-vertical .btn+.btn,
+.btn-group-vertical .btn+.btn-group,
+.btn-group-vertical .btn-group+.btn,
+.btn-group-vertical .btn-group+.btn-group {
     margin-right: -1px;
     margin-left : 0;
-} 
+}
 
 /* ----------------- Drop Down ---------------- */
 .dropdown-toggle::after {
@@ -156,17 +158,11 @@ body {
 }
 
 .dropright>.btn:not(:last-child):not(.dropdown-toggle) {
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    border-top-left-radius: .25rem !important;
-    border-bottom-left-radius: .25rem !important;
+    border-radius: .25rem 0 0 .25rem !important;
 }
 
 .dropright > .btn:not(:first-child) {
-    border-top-left-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
-    border-top-right-radius: .25rem !important;
-    border-bottom-right-radius: .25rem !important;
+    border-radius: 0 .25rem .25rem 0 !important;
 }
 
 /* ------------------- Pagination ------------------------ */
