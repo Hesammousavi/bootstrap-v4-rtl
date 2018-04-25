@@ -180,3 +180,14 @@ body {
     border-top-left-radius: .25rem;
     border-bottom-left-radius: .25rem;
 }
+
+/* ------------------- Dismissing ------------------------ */
+.alert-dismissible {
+    padding-right: 1.25rem !important;
+    padding-left: 4rem;
+}
+
+.alert-dismissible .close {
+    left : 0;
+    right : auto !important;
+}
