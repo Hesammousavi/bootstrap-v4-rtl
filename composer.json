@@ -1,0 +1,13 @@
+{
+    "name": "roocket/bootstrap-v4-rtl",
+    "description": "boootstrap4 right to left",
+    "type": "project",
+    "keywords": ["bootstra", "bootstrap-rtl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hesam Mousavi",
+            "email": "hesammoousavi@gmail.com"
+        }
+    ]
+}
