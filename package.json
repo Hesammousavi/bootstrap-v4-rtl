@@ -1,6 +1,6 @@
 {
   "name": "hbootstrap4rtl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bootstrap v4 right to left",
   "keywords": [
     "bootstrap4",
@@ -8,6 +8,7 @@
     "bootstrap-rtl",
     "bootstrap"
   ],
+  "license": "MIT",
   "scripts": {
     "build": "minify --output bootstrap-rtl.min.css bootstrap-rtl.css"
   },
