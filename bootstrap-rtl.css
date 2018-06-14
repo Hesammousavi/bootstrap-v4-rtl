@@ -3,6 +3,11 @@ body {
     text-align: right;
 }
 
+.list-unstyled {
+    padding-left: initial !important;
+    padding-right: 0;
+}
+
 /* ----------------- List Group ----------------- */
 .list-group {
     padding-right: 0;
