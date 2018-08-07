@@ -8,6 +8,10 @@ body {
   color: #5a5a5a;
 }
 
+.navbar-nav {
+  padding-right: 12px;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
