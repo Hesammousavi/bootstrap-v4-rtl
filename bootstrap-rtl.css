@@ -517,3 +517,11 @@ body {
         margin-left: unset;
     }
 }
+
+.table-striped tr td:first-of-type {
+    border-radius: 0 5px 5px 0;
+}
+
+.table-striped tr td:last-of-type {
+    border-radius: 5px 0 0 5px;
+}
