@@ -139,6 +139,11 @@ body {
     margin-right: -1.25rem;
 }
 
+.form-check-inline .form-check-input {
+    margin-left: .3125rem;
+    margin-right: 0;
+}
+
 /* ------------------ Btn Group ------------------ */
 
 .btn-group > .btn-group:not(:last-child) > .btn,
