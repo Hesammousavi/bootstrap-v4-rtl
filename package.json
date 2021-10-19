@@ -17,5 +17,9 @@
   },
   "dependencies": {
     "npm": "^6.1.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
   }
 }
