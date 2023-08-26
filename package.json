@@ -10,12 +10,10 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "minify --output bootstrap-rtl.min.css bootstrap-rtl.css"
+    "minify-css": "postcss ./bootstrap-rtl.css > ./bootstrap-rtl.min.css"
   },
   "devDependencies": {
-    "minifier": "^0.8.1"
-  },
-  "dependencies": {
-    "npm": "^6.1.0"
+    "cssnano": "^6.0.1",
+    "postcss-cli": "^10.1.0"
   }
 }
