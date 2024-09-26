@@ -34,3 +34,9 @@ bootstrap/
 ├── bootstrap-rtl.min.css
 └── examples/
 ```
+## CDN 
+```html
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Hesammousavi/bootstrap-v4-rtl/bootstrap-rtl.min.css" />
+  <!-- or -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Hesammousavi/bootstrap-v4-rtl/bootstrap-rtl.css" />
+```
