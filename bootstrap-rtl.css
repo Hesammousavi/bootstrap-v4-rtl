@@ -1,6 +1,7 @@
 body {
     direction: rtl;
     text-align: right;
+    background:red;
 }
 
 .list-unstyled {
